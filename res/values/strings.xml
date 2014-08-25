@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Basic Glass App</string>
+    
+    <!--  Initial text -->
+    <string name="hello_world">Great, your first app!</string>
+    
+    <!--  Text for optins in menu -->
+    <string name="settings_1">Setting 1</string>
+    <string name="settings_2">Setting 2</string>
+    
+    <!-- Voice trigger for launching app -->
+    <string name="glass_voice_trigger">Start a basic app</string>
+
+</resources>
