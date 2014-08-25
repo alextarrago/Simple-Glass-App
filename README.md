@@ -7,7 +7,7 @@ Basic Google Glass app with voice trigger for launching the application and opti
 
  * Voice trigger for launching, in this case *"Start a basic app"*. **Easy configuration for using your own voice trigger.**
  * Basic text showing *"Great, your first app!"*
- * Options menu when tapping using GestureDetector.Easy to increase the number of items in the menu. See *src/menu/main.xml*
+ * Options menu when tapping using GestureDetector. Easy to increase the number of items in the menu. See *src/menu/main.xml*
   
 *Tested with XE19.1*
 
