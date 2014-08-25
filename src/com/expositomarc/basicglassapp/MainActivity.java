@@ -15,8 +15,8 @@ import com.google.android.glass.touchpad.GestureDetector;
 
 public class MainActivity extends Activity {
 
-	// Gesture detector for tapping
-	private GestureDetector mGestureDetector;
+    // Gesture detector for tapping
+    private GestureDetector mGestureDetector;
 	  
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,12 +38,12 @@ public class MainActivity extends Activity {
         // Create a base listener for generic gestures
         gdDetector.setBaseListener( new GestureDetector.BaseListener() {
             
-        	@Override
-            public boolean onGesture(Gesture gesture) 
-            {
-        		// If we detect TAP (choose whatever gesture you want for your menu)
-                if (gesture == Gesture.TAP) 
-                {
+            @Override
+            public boolean onGesture(Gesture gesture) {
+        	
+        	// If we detect TAP (choose whatever gesture you want for your menu)
+                if (gesture == Gesture.TAP) {
+                    
                     // Call to open the menu
                     openOptionsMenu();
                     
