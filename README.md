@@ -11,6 +11,8 @@ Basic Google Glass app with voice trigger for launching the application and opti
   
 *Tested with XE19.1*
 
+Simply clone or download the project and import it to Eclipse. If you see Glass API is not working, check in *Project Build Target* is checked **Glass Development Kit Preview**
+
 
 All documented for learning and testing. 
 
